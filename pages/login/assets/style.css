@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* fonts */
+  --logo-font: "Island Moments", cursive;
+  --main-font: "Inter", sans-serif;
+
+  /* colors */
+  --primary-color: #ff7a18;
+  --main-color: #ffffff;
+  --font-color: #1f2937;
+}
+
+body {
+  color: var(--main-color);
+  font-family: var(--main-font);
+  background-color: #f3f4f6;
+  button {
+    padding: 16px 52px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    a {
+      font-size: 1rem;
+      font-family: var(--main-font);
+      color: var(--main-color);
+      text-decoration: none;
+    }
+  }
+
+          .logo {
+          font-size: 2rem;
+          font-family: var(--logo-font);
+          color: var(--primary-color);
+        }
+}
+
+.sigin-container {
+    margin: 0 auto;
+    /* max-width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .img-container {
+        background: url(/pages/login/assets/img/Rectangle\ 1@3x.png) center/cover no-repeat;
+        position: relative;
+        flex: 1 0;
+        min-height: 1000px;
+        max-width: 710px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .hero-overlay {
+        position: absolute;
+        inset: 0;
+        background: #ff7a1880;
+        }
+
+        .text-content {
+            margin: 0 auto;
+            width: 400px; 
+            position: relative;
+            z-index: 2; 
+
+            h2 {
+                text-align: center;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 61px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 34px;
+            }
+        }
+    }
+    
+
+    .login-container {
+        margin: 0 auto;
+        max-width: 500px;
+        flex: 1 0;
+        .loginInfo {
+        color: var(--font-color);
+        padding: 45px;
+            h2 {
+            font-weight: 400;
+            text-align: center;
+            font-size: 40.81px;
+            color: var(--primary-color);
+            }
+
+            .firstchild {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+            
+            }
+
+            .emailInput, .passwordInput {
+                margin-top: 25px;
+
+                label {
+                font-weight: 500;
+                font-size: 14px;
+                /* margin: 10px 0; */
+                }
+
+                input {
+                height: 45px;
+                width: 100%;
+                margin: 5px 0;
+                border-radius: 5px;
+                outline: none;
+                background: transparent;
+                border: 0.5px solid #BDBDBD;
+                padding: 15px;
+            }
+
+            } 
+            .passwordInput {
+                p{
+                    text-align: right;
+                    a {
+                        /* color: var(--font-color); */
+                        text-decoration: none;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .checkbox {
+                margin: 10px 0; 
+                input {
+                    height: 10px;
+                }
+
+                label {
+                    text-align: justify;
+                    font-size: 14px;
+                }
+            }
+
+            .loginBtn {
+            margin-top: 15px;
+            width: 100%;
+            height: 45px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                margin: 10px 0;
+                text-align: center;
+            }
+
+            .googleBtn, .facebookBtn {
+                cursor: pointer;
+                border-radius: 10px;
+                border: none;
+                background-color: white;
+                height: 45px;
+                width: 100%;
+                margin: 10px 5px;
+                border: 1px solid #BDBDBD;
+            }
+        }
+    }
+}
+
+.footer-section {
+  
+  .footer-bottom {
+    background-color: #471e00;
+    padding: 69px 69px;
+
+    .footer-bottom-container {
+      display: flex;
+      gap: 150px;
+
+      .footer-column {
+        flex: 0 0 150px;
+
+        p {
+          line-height: 26px;
+          font-size: 0.9rem;
+        }
+      }
+
+      .footer-links,
+      .footer-contact,
+      .footer-social {
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 300;
+          font-family: "Jost", sans-serif;
+        }
+
+        p {
+          a {
+			font-family: "Jost", sans-serif;
+            text-decoration: none;
+            color: var(--main-color);
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+	.footer-copyrights {
+		margin-top: 50px;
+		p {
+			color: var(--main-color);
+            font-size: 0.75rem;
+			font-family: "Jost", sans-serif;
+		}
+		
+	}
+  }
+}
