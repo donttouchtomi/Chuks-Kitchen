@@ -17,44 +17,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <!-- styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/home.css">
     <title>Food Business</title>
 </head>
 
 <body>
+    <!-- navBar -->
+    <section class="nav-wrapper">
+        <a href="#" class="logo">Chris Kitchen</a>
 
-    <section class="header">
+        <ul class="nav-menu">
+            <li><a href="index.html" class="firstchild">Home</a></li>
+            <li><a href="pages/explore.html">Explore</a></li>
+            <li><a href="pages/my-order.html">My Orders</a></li>
+            <li><a href="pages/account.html">Account</a></li>
+        </ul>
+        <button class="login-btn"><a href="/pages/login.html">Login</a></button>
 
-        <div class="nav-wrapper">
-            <a href="#" class="logo">Chris Kitchen</a>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="firstchild">Home</a></li>
-                <li><a href="pages/explore/explore.html">Explore</a></li>
-                <li><a href="pages/my-order/my-order.html">My Orders</a></li>
-                <li><a href="pages/account/account.html">Account</a></li>
-            </ul>
-            <button class="login-btn"><a href="/pages/login/login.html">Login</a></button>
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+    </section>
 
-            <div class="icons">
-                <i class="fa-solid fa-bars" id="menu"></i>
-            </div>
+    <!-- hero-section -->
+    <section class="header-container">
+        <div class="text-content">
+            <h1>The Heart of Nigerian Home Cooking</h1>
+            <h3>Handcrafted with passion, deliver</h3>
+            <button><a href="">Discover what's new</a></button>
         </div>
 
-        <div class="header-container">s
-            <div class="text-content">
-                <h1>The Heart of Nigerian Home Cooking</h1>
-                <h3>Handcrafted with passion, deliver</h3>
-                <button><a href="">Discover what's new</a></button>
-            </div>
-
-            <div class="search-bar">
-                <input type="text" placeholder="What are you craving for today?" />
-            </div>
-
-            <div class="hero-overlay"></div>
+        <div class="search-bar">
+            <input type="text" placeholder="What are you craving for today?" />
         </div>
 
+        <div class="hero-overlay"></div>
     </section>
 
     <section class="menu-section">
@@ -80,12 +78,12 @@
                     <p>Swet Treats</p>
                 </div>
                 <div class="categories-card">
-                    <img src="./assets/img/Rectangle 13.png" alt="foods">
+                    <img src="./assets/img/Property 1=Variant2.png" alt="foods">
                     <p>Jollof Delights</p>
                 </div>
                 <div class="categories-card">
-                    <img src="./assets/img/Property 1=Variant2.png" alt="foods">
-                    <p>Vegetable & Salad</p>
+                    <img src="./assets/img/Property 1=Variant3.png" alt="foods">
+                    <p>Jollof Delights</p>
                 </div>
             </div>
         </div>
@@ -95,7 +93,7 @@
             <div class="specials-grid">
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Property 1=Variant2.png" alt="foods">
+                        <img src="./assets/img/Tilapia.png" alt="foods">
                     </div>
                     <div class="food-content">
                         <h2>Spicy Tilapia Pepper SOup</h2>
@@ -109,7 +107,7 @@
 
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Property 1=Variant3.png" alt="foods">
+                        <img src="./assets/img/Rectangle 13.png" alt="foods">
                     </div>
                     <div class="food-content">
                         <h2>Jollof Rice & Fried Chicken</h2>
@@ -125,7 +123,7 @@
 
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Property 1=Variant4.png" alt="foods">
+                        <img src="./assets/img/Rectangle 13.png" alt="foods">
                     </div>
                     <div class="food-content">
                         <h2>Jollof Rice & Fried Chicken</h2>
@@ -156,7 +154,7 @@
                 </div>
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Property 1=Variant2.png" alt="foods">
+                        <img src="./assets/img/Property 1=Variant5.png" alt="foods">
                     </div>
                     <div class="food-content">
                         <h2>Egusi Soup & Pounded Yam</h2>
@@ -170,7 +168,7 @@
                 </div>
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Property 1=Variant3.png" alt="foods">
+                        <img src="./assets/img/Property 1=Variant6.png" alt="foods">
                     </div>
                     <div class="food-content">
                         <h2>Egusi Soup & Pounded Yam</h2>
@@ -183,9 +181,11 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <footer class="footer-section">
+        <!-- footer-image-container -->
         <div class="footer-container">
             <div class="text-content">
                 <h1>Introducing Our New Menu Additions!</h1>
@@ -196,43 +196,8 @@
             </div>
             <div class="hero-overlay"></div>
         </div>
-        <div class="footer-bottom">
-            <div class="footer-bottom-container">
-                <div class="footer-column footer-about">
-                    <h2 class="logo">Chuks Kitchen</h2>
-                    <p>Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
-                </div>
 
-                <div class="footer-column footer-links">
-                    <h2>Quick Links</h2>
-                    <p><a href="#">Home</a></p>
-                    <p><a href="#">Explore</a></p>
-                    <p><a href="#">My Order</a></p>
-                    <p><a href="#">Account</a></p>
-                    <p><a href="#">Contact</a></p>
-                </div>
-
-                <div class="footer-column footer-contact">
-                    <h2>Contact Us</h2>
-                    <p><a href="#">+234 801 234 5678</a></p>
-                    <p><a href="#">hello@chukskitchen.com</a></p>
-                    <p><a href="#">123 Tastee Blud Lagos. Nigeria</a></p>
-                </div>
-
-                <div class="footer-column footer-social">
-                    <p><a href="#">Facebook</a></p>
-                    <p><a href="#">Twitter</a></p>
-                    <p><a href="#">LinkedIn</a></p>
-                    <p><a href="#">Instagram</a></p>
-                </div>
-
-            </div>
-            <div class="footer-copyrights">
-                <p>&copy; 2024 Chuks Kitchen. All rights reserved.</p>
-            </div>
-        </div>
-
-
+        <!-- footer-text-bottom -->
     </footer>
 </body>
 

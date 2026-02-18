@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+}
+
+:root {
+    /* fonts */
+    --logo-font: "Island Moments", cursive;
+    --main-font: "Inter", sans-serif;
+
+    /* colors */
+    --primary-color: #ff7a18;
+    --main-color: #ffffff;
+    --font-color: #1f2937;
+}
+
+
+
+@media (max-width :1000px) {
+    .header {
+        .nav-wrapper {
+            padding: 5px 25px;
+
+            .nav-menu li {
+                display: none;
+                /* flex-direction: column; */
+            }
+
+            .icons {
+                display: block;
+            }
+        }
+
+        .login-btn {
+            display: none;
+        }
+
+        .header-container {
+            padding: 0 25px;
+
+            .text-content {
+                width: 800px;
+                position: relative;
+                z-index: 2;
+
+                h1 {
+                    font-size: 32px;
+                    line-height: 1.1;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+
+            }
+        }
+    }
+
+    .footer-bottom {
+            display: none;
+        }
+}
