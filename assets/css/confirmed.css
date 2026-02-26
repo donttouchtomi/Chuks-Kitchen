@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* fonts */
+    --logo-font: "Island Moments", cursive;
+    --main-font: "Inter", sans-serif;
+
+    /* colors */
+    --primary-color: #ff7a18;
+    --main-color: #ffffff;
+    --font-color: #1f2937;
+}
+
+body {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    background-color: #f3f4f6;
+}
+
+.success-card {
+    margin: 100px auto;
+    background: #fdfdfd;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.check-container {
+    background-color: #1a8344;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+}
+
+.checkmark {
+    color: white;
+    font-size: 40px;
+}
+
+h2 { font-size: 20px; margin-bottom: 10px; }
+
+.description { color: #555; font-size: 15px; margin-bottom: 40px; }
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    background-color: #d1f2eb;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+}
+
+.order-number { font-size: 18px; margin-bottom: 25px; }
+
+.btn-track {
+    width: 100%;
+    background-color: #ff7f24;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.btn-receipt {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.help-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+}

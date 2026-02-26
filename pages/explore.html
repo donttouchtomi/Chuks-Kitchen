@@ -31,8 +31,8 @@
                 <li><a href="explore.html">Explore</a></li>
                 <li><a href="../pages/my-order.html">My Orders</a></li>
                 <li><a href="../pages/account.html">Account</a></li>
+                <li> <button class="login-btn"><a href="../pages/login.html">Login</a></button></li>
             </ul>
-            <button class="login-btn"><a href="../login/login.html">Login</a></button>
 
             <div class="icons">
                 <i class="fa-solid fa-bars" id="menu"></i>
@@ -82,11 +82,11 @@
                         <p>Our signature Jollof rice, served with crispy fried chicken and plantain</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Jollof Rice & Fried Chicken" data-price="3500"
+                                data-image="../assets/img/Jollof.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
-
                 <div class="food-card">
                     <div class="food-image">
                         <img src="../assets/img/image 8.png" alt="foods">
@@ -96,7 +96,8 @@
                         <p>Hearty Egusi soup with tender goat meat, served with soft Eba</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Eba & Egusi Soup (Goat Meat)" data-price="3500"
+                                data-image="../assets/img/Egusi.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -110,7 +111,8 @@
                         <p>Traditional pounded yam with rich, leafy Edikaikong soup</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Pounded Yam & Edikaikong" data-price="3500"
+                                data-image="../assets/img/image 7.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -124,7 +126,8 @@
                         <p>Spicy and savory peppered snail, perfect as a starter</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Peppered Snail" data-price="3500"
+                                data-image="../assets/img/image 5.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -137,20 +140,8 @@
                         <p>Whole grilled tilapia seasoned with our special spices</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-card">
-                    <div class="food-image">
-                        <img src="../assets/img/Property 1=Default.png" alt="foods">
-                    </div>
-                    <div class="food-content">
-                        <h2>Jollof Rice & Fried Chicken</h2>
-                        <p>Our signature Jollof rice, served with crispy fried chicken and plantain</p>
-                        <div class="price-tag">
-                            <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Grilled Tilapia Fish" data-price="3500"
+                                data-image="../assets/img/image 6.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -170,7 +161,8 @@
                         <p>Flavorful jollof rice served with perfectly smoked fish</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Pounded Yam & Edikaikong" data-price="3500"
+                                data-image="../assets/img/image 7.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -184,21 +176,8 @@
                         <p> Vegetarian party jollof, full of rich flavors</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-card">
-                    <div class="food-image">
-                        <img src="../assets/img/Property 1=Default.png" alt="foods">
-                    </div>
-                    <div class="food-content">
-                        <h2>Party Jollof Rice (Veg) </h2>
-                        <p> Vegetarian party jollof, full of rich flavors</p>
-                        <div class="price-tag">
-                            <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Party Jollof Rice (Veg)" data-price="3500"
+                                data-image="../assets/img/image 8.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -218,10 +197,12 @@
                         <p>Classic Amala served with gbegiri (beans) and ewedu (jute leaf) soup</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Amala with Gbegiri & Ewedu" data-price="3500"
+                                data-image="../assets/img/image 1.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="food-card">
                     <div class="food-image">
@@ -232,21 +213,8 @@
                         <p>Light fufu served with fresh Okro soup and tilapia fish</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-card">
-                    <div class="food-image">
-                        <img src="../assets/img/image 2.png" alt="foods">
-                    </div>
-                    <div class="food-content">
-                        <h2>Fufu & Okro Soup (Fish)</h2>
-                        <p>Light fufu served with fresh Okro soup and tilapia fish</p>
-                        <div class="price-tag">
-                            <p>N3,500</p>
-                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button class="add-to-cart" data-name="Fufu & Okro Soup (Fish)" data-price="3500"
+                                data-image="../assets/img/image 2.png"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                 </div>
@@ -263,11 +231,10 @@
 
             <div class="footer-column footer-links">
                 <h2>Quick Links</h2>
-                <p><a href="#">Home</a></p>
-                <p><a href="#">Explore</a></p>
-                <p><a href="#">My Order</a></p>
-                <p><a href="#">Account</a></p>
-                <p><a href="#">Contact</a></p>
+                <p><a href="../index.html">Home</a></p>
+                <p><a href="/pages/explore.html">Explore</a></p>
+                <p><a href="/pages/my-order.html">My Order</a></p>
+                <p><a href="/pages/account.html">Account</a></p>
             </div>
 
             <div class="footer-column footer-contact">
@@ -290,7 +257,7 @@
         </div>
     </footer>
 
-
+    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>

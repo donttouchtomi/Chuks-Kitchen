@@ -28,6 +28,10 @@ body button {
     background-color: var(--primary-color);
 }
 
+body button:hover {
+    cursor: pointer;
+}
+
 body button a {
     font-size: 1rem;
     font-family: var(--main-font);
@@ -94,7 +98,7 @@ body button a {
     color: var(--primary-color);
 }
 
-.nav-wrapper .login-btn {
+.nav-wrapper .nav-menu li .login-btn {
     padding: 15px 52px;
     border-radius: 10px;
     border: none;
@@ -106,6 +110,7 @@ body button a {
         color: var(--main-color);
     }
 }
+
 
 /* hero-section */
 .header-container {
@@ -220,4 +225,28 @@ body button a {
         font-family: "Jost", sans-serif;
     }
 
+}
+
+@media (max-width: 1000px) {
+    .nav-wrapper .nav-menu {
+        position: absolute;
+        top: 65px;
+        right: 0;
+        left: 0;
+        gap: 80px;
+        padding: 25px 0;
+        margin: 0;
+        flex-direction: column;
+        background-color: var(--main-color);
+
+        display: none; /* HIDE by default */
+    }
+
+    .nav-wrapper .nav-menu.active {
+        display: flex; /* SHOW when active */
+    }
+
+    .nav-wrapper .icons {
+        display: block;
+    }
 }

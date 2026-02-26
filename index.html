@@ -32,8 +32,8 @@
             <li><a href="pages/explore.html">Explore</a></li>
             <li><a href="pages/my-order.html">My Orders</a></li>
             <li><a href="pages/account.html">Account</a></li>
+            <li> <button class="login-btn"><a href="/pages/login.html">Login</a></button></li>
         </ul>
-        <button class="login-btn"><a href="/pages/login.html">Login</a></button>
 
         <div class="icons">
             <i class="fa-solid fa-bars" id="menu"></i>
@@ -100,7 +100,8 @@
                         <p>A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
                         <div class="price-tag">
                             <p>N3,500</p>
-                            <button>Add to Cart</button>
+                            <button class="add-to-cart" data-name="Spicy Tilapia Pepper Soup" data-price="3500"
+                                data-image="../assets/img/Tilapia.png">Add to Cart</button>
                         </div>
                     </div>
                 </div>
@@ -123,13 +124,11 @@
 
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Rectangle 13.png" alt="foods">
+                        <img src="./assets/img/Tilapia.png" alt="foods">
                     </div>
                     <div class="food-content">
-                        <h2>Jollof Rice & Fried Chicken</h2>
-                        <p>Our signature Jollof rice, cooked to
-                            perfection, served with succulent fried
-                            chicken.</p>
+                        <h2>Spicy Tilapia Pepper SOup</h2>
+                        <p>A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
                         <div class="price-tag">
                             <p>N3,500</p>
                             <button>Add to Cart</button>
@@ -139,33 +138,34 @@
 
                 <div class="food-card">
                     <div class="food-image">
-                        <img src="./assets/img/Rectangle 13.png" alt="foods">
-                    </div>
-                    <div class="food-content">
-                        <h2>Jollof Rice & Fried Chicken</h2>
-                        <p>Our signature Jollof rice, cooked to
-                            perfection, served with succulent fried
-                            chicken.</p>
-                        <div class="price-tag">
-                            <p>N3,500</p>
-                            <button>Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-card">
-                    <div class="food-image">
-                        <img src="./assets/img/Property 1=Variant5.png" alt="foods">
+                        <img src="./assets/img/Property 1=Variant6.png" alt="foods">
                     </div>
                     <div class="food-content">
                         <h2>Egusi Soup & Pounded Yam</h2>
                         <p>Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.</p>
-                        chicken.</p>
                         <div class="price-tag">
                             <p>N3,500</p>
                             <button>Add to Cart</button>
                         </div>
                     </div>
                 </div>
+
+                <div class="food-card">
+                    <div class="food-image">
+                        <img src="./assets/img/Rectangle 13.png" alt="foods">
+                    </div>
+                    <div class="food-content">
+                        <h2>Jollof Rice & Fried Chicken</h2>
+                        <p>Our signature Jollof rice, cooked to
+                            perfection, served with succulent fried
+                            chicken.</p>
+                        <div class="price-tag">
+                            <p>N3,500</p>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="food-card">
                     <div class="food-image">
                         <img src="./assets/img/Property 1=Variant6.png" alt="foods">
@@ -181,7 +181,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <footer class="footer-section">
@@ -198,7 +197,43 @@
         </div>
 
         <!-- footer-text-bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <div class="footer-column footer-about">
+                    <h2 class="logo">Chuks Kitchen</h2>
+                    <p>Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
+                </div>
+
+                <div class="footer-column footer-links">
+                    <h2>Quick Links</h2>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="/pages/explore.html">Explore</a></p>
+                    <p><a href="/pages/my-order.html">My Order</a></p>
+                    <p><a href="/pages/account.html">Account</a></p>
+                </div>
+
+                <div class="footer-column footer-contact">
+                    <h2>Contact Us</h2>
+                    <p><a href="#">+234 801 234 5678</a></p>
+                    <p><a href="#">hello@chukskitchen.com</a></p>
+                    <p><a href="#">123 Tastee Blud Lagos. Nigeria</a></p>
+                </div>
+
+                <div class="footer-column footer-social">
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">LinkedIn</a></p>
+                    <p><a href="#">Instagram</a></p>
+                </div>
+
+            </div>
+            <div class="footer-copyrights">
+                <p>&copy; 2024 Chuks Kitchen. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>

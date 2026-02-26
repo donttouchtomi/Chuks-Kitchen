@@ -12,14 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <!-- styles -->
-    <link rel="stylesheet" href="../assets/css/global.css">
-    <link rel="stylesheet" href="../assets/css/my-order.css">
-    <title>My Orders</title>
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/payment.css">
+    <title>Payment Options</title>
 </head>
 
 <body>
@@ -39,14 +38,60 @@
         </div>
     </section>
 
-    <section class="cart">
-        <h1>Your Cart</h1>
-        <div class="cart-container" id="cart-container">
-        </div>
+    <section class="delivery">
+        <div class="payment-container">
+            <h2>Payment</h2>
+            <div class="divider"></div>
 
+            <div class="pay-method">
+                <p style="margin-bottom:10px; font-size:14px;">Pay With:</p>
+
+                <label>
+                    <input type="radio" name="payment" checked> Card
+                </label>
+
+                <label>
+                    <input type="radio" name="payment"> Bank
+                </label>
+
+                <label>
+                    <input type="radio" name="payment"> Transfer
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>Card Number</label>
+                <input type="text" placeholder="1234 5678 9101 1121">
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label>Expiration Date</label>
+                    <input type="text" placeholder="MM/YY">
+                </div>
+
+                <div class="form-group">
+                    <label>CVV</label>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox">
+                <span>Save card details</span>
+            </div>
+
+            <button class="pay-btn" onclick="returnToOrder()">Pay ₦9,900</button>
+
+            <div class="privacy-text">
+                Your personal data will be used to process your order,
+                support your experience throughout this website,
+                and for other purposes described in our privacy policy.
+            </div>
+        </div>
     </section>
 
-    <section class="footer-bottom">
+    <footer class="footer-bottom">
         <div class="footer-bottom-container">
             <div class="footer-column footer-about">
                 <h2 class="logo">Chuks Kitchen</h2>
@@ -59,6 +104,7 @@
                 <p><a href="/pages/explore.html">Explore</a></p>
                 <p><a href="/pages/my-order.html">My Order</a></p>
                 <p><a href="/pages/account.html">Account</a></p>
+                <p><a href="#">Contact</a></p>
             </div>
 
             <div class="footer-column footer-contact">
@@ -79,8 +125,7 @@
         <div class="footer-copyrights">
             <p>&copy; 2024 Chuks Kitchen. All rights reserved.</p>
         </div>
-    </section>
-
+    </footer>
     <script src="/assets/js/app.js"></script>
 </body>
 
