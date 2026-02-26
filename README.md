@@ -53,9 +53,8 @@ The hamburger button uses JavaScript to toggle the visibility of the mobile navi
 ### Project Structure
 
 ├── index.html
-├── style.css
-├── script.js
-├── images/
+├── pages
+├── assets
 └── README.md
 
 ## How to Run Locally
