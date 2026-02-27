@@ -249,4 +249,10 @@ body button a {
     .nav-wrapper .icons {
         display: block;
     }
+
+    .footer-bottom .footer-bottom-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 }
