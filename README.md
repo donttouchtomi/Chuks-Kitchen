@@ -6,7 +6,7 @@ A showcase of my frontend development and graphic design projects.
 ## Live Demo
 
 Live Site: https://singular-basbousa-88e42b.netlify.app/
-GitHub Repository: https://github.com/yourusername/your-repository-name
+GitHub Repository: https://github.com/donttouchtomi/Chuks-Kitchen.git
 
 ## Project Description
 
