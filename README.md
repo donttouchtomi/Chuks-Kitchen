@@ -6,7 +6,7 @@ A showcase of my frontend development and graphic design projects.
 ## Live Demo
 
 Live Site: https://singular-basbousa-88e42b.netlify.app/
-GitHub Repository: https://github.com/yourusername/your-repository-name
+GitHub Repository: https://github.com/donttouchtomi/Chuks-Kitchen.git
 
 ## Project Description
 
@@ -60,7 +60,7 @@ The hamburger button uses JavaScript to toggle the visibility of the mobile navi
 ## How to Run Locally
 
 - Clone the repository:
-  git clone https://github.com/yourusername/your-repository-name.git
+  git clone https://github.com/donttouchtomi/Chuks-Kitchen.git
 
 - Open the project folder.
 
